@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+#userForm{
+	margin-left:100px;
+}
+#p1detail{
+	font-size:16px;
+	padding:20px;
+}
+.ipt{
+	width:60%;
+	margin-left:50px;
+	padding-right: 5px;
+}
+.upd{
+	margin-left:400px;
+}
+#p1sex1{
+	margin-right: 20px;
+}
+#tid{
+	width:160px;
+}
+#tph{
+	width:90px;
+}
+.table{
+	text-align:center;
+	vertical-align:middle;
+}
+#ttil th{
+	text-align:center;
+}
+.topP{
+	text-align: right;
+	margin-left:300px;
+}
+.partTop {
+    background-color: #bdd6ea;
+    width: 100%;
+    height: 70px;
+}
+.partMid{
+    background-color: #e1f0fd;
+    padding: 10px 10px 10px 10px;
+    height: 95px;
+    width:100%;
+    overflow:auto; 
+    zoom:1;
+}
+.topText{
+	background-color: #8eb8d8;
+    color: #fff;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 11px;
+    border-radius: 10px;
+    margin: 8px 8px;
+}
+.topText22{
+	background-color: #8eb8d8;
+    color:black;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 11px;
+    border-radius: 10px;
+    margin: 8px 8px;
+}
+.fromTime{
+    color: #39424c;
+    font-size: 35px;	
+    margin-left: 40px;
+    width:130px;
+    float:left;
+}
+.toTime{
+	color: #39424c;
+    font-size: 35px;	
+    margin-left: 180px;
+    width:130px;
+    float:left;
+    
+}
+.imgLine{
+	margin-left:25px;
+}
+.fromWhere{
+	color: #39424c;
+    font-size: 15px;
+    margin-left: 0;
+}
+.toWhere{
+	color: #39424c;
+    font-size: 15px;
+}
+.glyphicon-arrow-right{
+	margin-left: -262px;
+	margin-top:15px;
+	font-size: 30px;
+}
+.glyphicon-arrow-right p{
+	font-size: 13px;
+	margin-left:-10px;
+}
+.partTop2 {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+#search_input{
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	
+}
+#flightTable th{
+	text-align: center;
+}
+#suggest{
+		width:200px;
+		position: absolute;
+		z-index:999999;
+		left:16px !important;
+		top:34px !important;
+	}
+#suggest2{
+		width:200px;
+		position: absolute;
+		z-index:999999;
+		left:16px !important;
+		top:34px !important;
+	}

@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+    #carousel-example-generic{
+ 		position: relative;
+	    width: 100%;
+	    height: 567px;
+    }
+    .queryForm{
+   		position:absolute;
+    	top:200px;
+    	left:190px;
+    	background-color: #f0fda8;
+    	height: 280px;
+    	width:320px;
+    	border-radius: 0 8px 8px 0;
+    }
+    .aLine{
+    	margin-left: 15px;
+    	font-size: 15px;
+    }
+    #cityFrom{
+    	width: 50%;
+    	height:45px;
+    	margin: 20px 10px 10px 5px;
+    	padding: 6px 12px;
+	    line-height: 1.42857143;
+	    background-color: #fff;
+	    background-image: none;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+    }
+    #cityTo{
+    	width: 50%;
+    	height:45px;
+    	margin: 20px 10px 10px 5px;
+    	padding: 6px 12px;
+	    line-height: 1.42857143;
+	    background-color: #fff;
+	    background-image: none;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+    }
+    #Apdate{
+    	width: 60%;
+    	height:45px;
+    	margin: 20px 10px 10px 5px;
+    	padding: 6px 12px;
+	    line-height: 1.42857143;
+	    background-color: #fff;
+	    background-image: none;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+    }
+    #suggest{
+		width:200px;
+		position: absolute;
+		z-index:500;
+		left:40px !important;
+		top:65px !important;
+	}
+	#suggest2{
+		width:200px;
+		position: absolute;
+		z-index:500;
+		left:40px !important;
+		top:130px !important;
+	}
+    #queryBtn{
+    	margin: 0 100px 10px 120px;
+    }
+    #changeBtn{
+    	height:83px;
+    	width:35px;
+    	position: absolute;
+    	right:20px;
+    	top:40px;
+    }
+    #sp{
+    	margin-left: -10px;
+    }

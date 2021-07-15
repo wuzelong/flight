@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+#queryForm{
+	position: relative;
+	margin-top: 10px;
+	background: #f0fda8;
+	width:100%;
+}
+#queryForm #btns{
+	padding: 15px 30px;
+    border-bottom: 1px solid black;
+    width:280px;
+}
+#aLine{
+	padding: 0 0 15px 30px;
+	font-size: 15px;
+}
+#cityFrom{
+  	width: 15%;
+   	height:45px;
+   	margin: 20px 10px 10px 5px;
+   	padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black !important;
+}
+#cityTo{
+	width: 15%;
+   	height:45px;
+   	margin: 20px 10px 10px 5px;
+   	padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black !important;
+}
+#Apdate{
+	width: 15%;
+   	height:45px;
+   	margin: 20px 10px 10px 5px;
+   	padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#suggest{
+		width:200px;
+		position: absolute;
+		z-index:500;
+		left:99px !important;
+		top:130px !important;
+	}
+#suggest2{
+		width:200px;
+		position: absolute;
+		z-index:500;
+		left:418.5px !important;
+		top:130px !important;
+	}
+#queryBtn{
+	margin-left: 85px;
+	width:120px;
+}
+#middle{
+	margin-top: 50px;
+}
+
+#queryBar{
+	background: #2f71bd;
+    width: 100%;
+    height: 45px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 20px;
+}
+#queryBar p {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left:10px;
+}
+#queryBar label {
+    display: inline-block;
+    margin-left: 340px;
+}
+.partTop {
+    cursor: pointer;
+    background-color: #bdd6ea;
+    width: 100%;
+    height: 50px;
+}
+.partMid{
+    background-color: #e1f0fd;
+    padding: 5px 10px 10px 10px;
+    height: 95px;
+    width:100%;
+}
+.partBot{
+    background-color: #fff;
+    height: 130px;
+    font-size: 16px;
+}
+.cabinHigh{
+	align-items: center;
+	display: flex;
+	height:65px;
+	border-bottom: 1px solid grey;
+}	
+.cabinLow{
+	align-items: center;
+	display: flex;
+	height:65px;
+	border-bottom: 1px solid grey;
+}
+.topText{
+	background-color: #8eb8d8;
+    color: #fff;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 11px;
+    border-radius: 10px;
+    margin: 15px 20px;
+}
+
+.fromTime{
+    color: #39424c;
+    font-size: 35px;	
+    margin-left: 40px;
+    width:130px;
+    float:left;
+}
+.toTime{
+	color: #39424c;
+    font-size: 35px;	
+    margin-left: 240px;
+    width:130px;
+    float:left;
+    
+}
+.imgLine{
+	margin-left:50px;
+}
+.fromWhere{
+	color: #39424c;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.toWhere{
+	color: #39424c;
+    font-size: 15px;
+}
+.glyphicon-arrow-right{
+	margin-left: -270px;
+	margin-top:15px;
+	font-size: 30px;
+}
+.lastPrice{
+	margin-left:620px;
+	margin-top:-40px;
+	text-align: center;
+}
+.lastPrice strong{
+	font-size:45px;
+	color: orange;
+}
+.glyphicon-arrow-right p{
+	font-size: 13px;
+	margin-left:-20px;
+}
+.textC{
+	word-break: keep-all;
+    width: 120px;
+    text-align: right;
+}
+.textR{
+	margin-left:60px;
+	color: grey;
+	text-align: center;
+	width: 160px;
+	font-size: 14px;
+}
+.textP{
+	margin-left:50px;
+	text-align: center;
+	text-align: right;
+	width: 80px;
+}
+.textP strong{
+	font-size:30px;
+	color: orange;
+}
+.bookBtn{
+	margin-left:80px;
+}
+.loadGif{
+	margin-left:340px;
+	margin-top:35px;
+}
+#sorry{
+	text-align: center;
+	font-size: 30px;
+}
+.remainT{
+	margin-left:25px;
+	color: orange;
+	font-size: 14px;
+}
+.getI{
+	font-size: 15px;
+	margin-left: 30px;
+}

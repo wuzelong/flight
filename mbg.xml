@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	
+  <context id="DB2Tables" targetRuntime="MyBatis3">
+    
+    <!-- 逆向生成不要注释 -->
+    <commentGenerator>
+    <property name="suppressAllComments" value="true" />
+	</commentGenerator>
+
+	
+
+      <!-- 数据库连接配置 -->
+    <jdbcConnection 
+    	driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        connectionURL="jdbc:sqlserver://127.0.0.1:1433;DatabaseName=flight"
+        userId="sa"
+        password="200217">
+        <property name="nullCatalogMeansCurrent" value="true"/>
+    </jdbcConnection>
+
+    <javaTypeResolver >
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+	<!-- 指定javaBean逆生成位置 -->
+    <javaModelGenerator 
+    	targetPackage="cn.jmu.bean" 
+    	targetProject=".\src\main\java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+	
+	<!-- 指定sql映射文件生成的位置 -->
+    <sqlMapGenerator 
+    targetPackage="mapper"  
+    targetProject=".\src\main\resources">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+	
+	<!-- 指定dao接口生成的位置，mapper接口 -->
+    <javaClientGenerator 
+    type="XMLMAPPER" 
+    targetPackage="cn.jmu.dao"  
+    targetProject=".\src\main\java">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+	
+	<!-- 指定每个表的生成策略 -->
+    <!--<table tableName="administrator" domainObjectName="Administrator"></table>
+    <table tableName="airport" domainObjectName="Airport"></table>
+    <table tableName="airportManager" domainObjectName="AirportManager"></table>
+    <table tableName="binding" domainObjectName="Binding"></table>
+    <table tableName="cabin" domainObjectName="Cabin"></table>
+    <table tableName="city" domainObjectName="City"></table>
+    <table tableName="executiveFlight" domainObjectName="ExecutiveFlight"></table>
+    <table tableName="flight" domainObjectName="Flight"></table>
+    <table tableName="luggage" domainObjectName="Luggage"></table>
+    <table tableName="model" domainObjectName="Model"></table>
+    <table tableName="orders" domainObjectName="Orders"></table>
+    <table tableName="passenger" domainObjectName="Passenger"></table>
+    <table tableName="province" domainObjectName="Province"></table>
+    <table tableName="seatingChart" domainObjectName="SeatingChart"></table>
+    <table tableName="seatSelection" domainObjectName="SeatSelection"></table>
+    <table tableName="terminal" domainObjectName="Terminal"></table>
+    <table tableName="ticket" domainObjectName="Ticket"></table>
+    <table tableName="ticketType" domainObjectName="TicketType"></table>
+    <table tableName="users" domainObjectName="Users"></table>
+     -->
+    <table tableName="orders" domainObjectName="Orders"></table>
+
+  </context>
+</generatorConfiguration>

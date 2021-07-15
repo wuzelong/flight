@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+#middle{
+	margin-top: 50px;
+}
+.deepBar{
+	position:relative;
+	background: #2f71bd;
+    width: 100%;
+    height: 45px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom:30px;
+}
+.deepBar p{
+	font-size: 16px;
+	margin-left:30px;
+}
+.partTop {
+    background-color: #bdd6ea;
+    width: 100%;
+    margin-top:10px;
+}
+.partMid{
+    background-color: #e1f0fd;
+    width:100%;
+    color:black;
+    overflow:auto ;
+    padding-bottom: 30px;
+}
+.table{
+	text-align:center;
+	vertical-align:middle;
+}
+#pasForm{
+	position:relative;
+	background: white;	
+	margin-top:25px;
+	margin-bottom: 40px;
+}
+#ttil th{
+	text-align:center;
+}
+.btns{
+	margin:20px 67px;
+}
+#linkName_add_input{
+	margin-top: 30px;
+}
+#linkTel_add_input{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.costHead th{
+	text-align:center;
+}
+#preBtn3{
+	margin-left:90px;
+}
+.partTop2 {
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    color:black;
+}
+.topText{
+	background-color: #8eb8d8;
+    color: #fff;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 11px;
+    border-radius: 10px;
+    margin: 15px 12px;
+}
+.fromTime{
+    color: #39424c;
+    font-size: 35px;	
+    margin-left: 80px;
+    width:130px;
+    float:left;
+}
+.toTime{
+	color: #39424c;
+    font-size: 35px;	
+    margin-left: 360px;
+    width:130px;
+    float:left;
+    
+}
+.fromWhere{
+	color: #39424c;
+    font-size: 15px;
+    margin-left: 0;
+}
+.toWhere{
+	color: #39424c;
+    font-size: 15px;
+}
+.glyphicon-arrow-right{
+	margin-left: -330px;
+	margin-top:15px;
+	font-size: 30px;
+}
+.glyphicon-arrow-right p{
+	font-size: 13px;
+	margin-left:-10px;
+}

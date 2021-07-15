@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jmu.dao.FlightInformationMapper">
+    <select id="selectByCityAndTime" parameterType="cn.jmu.bean.FlightInformation" resultType="cn.jmu.bean.FlightInformation">
+        select * from flightInformation where
+        1=1
+        <if test="flightId != null and flightId != ''">
+            and flightId=#{flightId}
+        </if>
+        <if test="departurecity != null and departurecity!= ''">
+            and departurecity=#{departurecity}
+            and DATEDIFF(DD,plannedDepartureTtime,#{plannedDepartureTtime})=0
+            and DATEDIFF(MM,plannedDepartureTtime,#{plannedDepartureTtime})=0
+        </if>
+        order by plannedDepartureTtime
+    </select>
+    <select id="selectByExecutiveFlightId" parameterType="String" resultType="cn.jmu.bean.FlightInformation">
+        select * from flightInformation where
+        executiveFlightId=#{executiveFlightId}
+        order by plannedDepartureTtime
+    </select>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jmu.dao.FindTicketMapper">
+    <select id="selectByFindTicket" parameterType="cn.jmu.bean.FindTicket" resultType="cn.jmu.bean.FindTicket">
+        select * from findticket where
+        DATEDIFF(DD,departuretime,#{departuretime})=0 and DATEDIFF(MM,departuretime,#{departuretime})=0
+        and departurecity=#{departurecity} and arrivalcity = #{arrivalcity}
+        <if test="cabinLevel != null and cabinLevel != ''">
+            and cabinLevel = #{cabinLevel}
+        </if>
+        order by departuretime
+    </select>
+</mapper>

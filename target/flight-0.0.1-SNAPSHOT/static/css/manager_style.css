@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+#check_input{
+	margin: 20px 10px 10px 5px;
+   	padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#check_button{
+	margin-top:20px;
+	margin-left: 20px;
+}
+#checkSeat_input{
+	margin: 20px 10px 10px 5px;
+   	padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#checkSeat_button{
+	margin-top:20px;
+	margin-left: 20px;
+}
+#oughtSelect{
+	font-size: 20px;
+	color: red;
+}
+#flight_input{
+	margin: 20px 10px 10px 5px;
+   	padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#flight_button{
+	margin-top:20px;
+	margin-left: 20px;
+}
+.partTop {
+    background-color: #bdd6ea;
+    width: 100%;
+    height: 50px;
+}
+.partMid{
+    background-color: #e1f0fd;
+    padding: 5px 10px 10px 10px;
+    height: 95px;
+    width:100%;
+}
+.topText{
+	background-color: #8eb8d8;
+    color: #fff;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 11px;
+    border-radius: 10px;
+    margin: 15px 8px;
+}
+.fromTime{
+    color: #39424c;
+    font-size: 35px;	
+    margin-left: 20px;
+    width:130px;
+    float:left;
+}
+.toTime{
+	color: #39424c;
+    font-size: 35px;	
+    margin-left: 150px;
+    width:130px;
+    float:left;
+    
+}
+.fromWhere{
+	color: #39424c;
+    font-size: 15px;
+    margin-left: 0;
+}
+.toWhere{
+	color: #39424c;
+    font-size: 15px;
+}
+.glyphicon-arrow-right{
+	margin-left: -262px;
+	margin-top:15px;
+	font-size: 30px;
+}
+.glyphicon-arrow-right p{
+	font-size: 13px;
+	margin-left:-10px;
+}
